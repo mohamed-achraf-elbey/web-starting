@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Dancing+Script&display=swap');
+html{scroll-behavior: smooth;}
+body{ font-family: 'Advent pro' , sans-serif;padding: 0; margin: 0;}
+ul{padding: 0; margin: 0;}
+li{list-style-type: none;}
+h2{text-transform: uppercase; text-align: center; padding-top: 30px; font-size: 2em;}
+a{text-decoration: none; color: black;}
+/* ******************************* NAVPAR ********************************** */
+nav{overflow: hidden; background: #fffae1; position: fixed; width: 100%; opacity: 0.9;}
+header li{float: right; font-size: 1.2em;}
+header li a{text-decoration: none; display: block; text-align: center; padding: 18px 16px;}
+#logo{font-family: 'Dancing Script', cursive; float: left; font-size: 25px;}
+/* *************************** IMAGE PRINCIPLE ***************************** */
+#image1{padding: 60px; background: url(../photos/image-principale.JPG) no-repeat 50% 50% fixed; background-size: cover; height: 800px; }
+h1{font-family: 'Dancing Script', cursive; text-align: center; color: antiquewhite; font-size: 6em; margin-top: 100px; text-shadow: 2px 4px 3px black;}
+#premiertrait{height:1px; width: 25%; margin: -3px auto; background-color: #fffae1; box-shadow: 2px 4px 3px black;}
+h3{text-align: center; color: #fffae1; font-size: 3em; text-shadow: 2px 4px 3px black;}
+/* ************************** PRISONTATION ********************************* */
+#P{ background-color: #fffae1; padding: 10px 0 100px 0;}
+#text{ padding: 0px 20%;}
+#pre{ display: flex; flex-wrap: wrap; justify-content: space-between; padding: 30px 10%;}
+.image234 h4{font-family: 'Doncing Script', cursive; text-align: center; font-size: 1.8em; margin: 15px; font-weight: 300;}
+.image234 img{ border-radius: 40%; box-shadow: 3px 4px 5px 4px black;}
+.image234 img:hover{opacity: 0.5; transform: scale(1.05); transition: 0.8s ease-in-out;}
+/*************************** torismee ************************************** */
+#tourisme{ background-color: #f1f2f6; height: 1400px; padding:1px 2% ;}
+#tourisme h2{padding-top: 60px;}
+#ocean{background: url(../photos/ocean.jpg) no-repeat;}
+#chateau{background: url(../photos/chateau.JPG) no-repeat;}
+#phare{background: url(../photos/phare.JPG) no-repeat;}
+#vignoble{background: url(../photos/vvvvvvvvvv.jpg) no-repeat;}
+#tourisme li{ margin: 65px 100px 0 100px; height: 226px; width: 55%; max-width: 550px; float: left; box-shadow: 6px 6px 28px -1px black; background-size: 100%;}
+#tourisme p{ height: 45px; width: 280px; background-color: #01df74; float: right; margin: 50px -180px 0 0; font-size: 1.5em; text-align: center; padding-top: 15px; box-shadow: 4px 4px 0 1px black; font-family: 'Doncing Script', cursive;}
+#tourisme #chateau, #tourisme #vignoble{ float: right;}
+#chateau p, #vignoble p{float: left; background-color: rgb(7, 212, 212); margin-left: -180px; box-shadow: -4px 4px 0 1px #000000;}
+/* ************************ footer ***************************************** */
+footer{ background-color: #524A3A; padding: 20px 0 10px 0; color: wheat;text-align: center;}
+form{margin: 0 auto; max-width: 900px;}
+input,textarea, button{ border: none; width: 55%; padding: 15px 10px; margin: 1px 0; font-size: 1.2em; font-family: 'Advent pro', sans-serif; border-radius: 8px;}
+textarea{height: 100px;}
+button{background-color: #fffae1; font-size: 1em;}
+button:hover{ background-color: #d1bf76 ; cursor: pointer; transition: 0.6s ease-in-out}
+footer #dotrait{ height: 1px; width: 75%; background-color: #fffae1; margin: 50px auto; }
+#copyrightEticons{ display: flex; margin-bottom: 20px; padding: 0 10%;}
+#icons{text-align: right; width: 50%;}
+#copyright{ width: 50%; text-align: left; color: #fffae1;}
+#icons a{ display: inline-block; margin: 15px; font-size: 1.3em; color: #fffae1;}
+#icons a:hover{transform: scale(1.5); transition: 0.2s;}
